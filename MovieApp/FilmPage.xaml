@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovieApp.FilmPage">
+    
+    <ScrollView>
+        <StackLayout Orientation="Vertical">
+            <Frame BackgroundColor="#880808" 
+               Padding="10" 
+               CornerRadius="0">
+                
+                <Label Text="Flixster" 
+                        HorizontalTextAlignment="Center" 
+                        TextColor="White" 
+                        FontSize="27" 
+                        FontAttributes="Bold"/>
+
+            </Frame>
+            
+            <Image
+                x:Name="internetIcon"
+                HorizontalOptions="Start"
+                HeightRequest="35"/>
+            
+            <ImageButton
+            x:Name="poster"
+                Clicked="poster_Clicked"
+                HeightRequest="300"
+               />
+
+            <StackLayout 
+            Orientation="Horizontal"
+            Margin="60,20,0,0">
+
+                <Button x:Name="previousBtn" 
+                    Clicked="previousBtn_Clicked"
+                    CornerRadius="10"
+                   Text="Precedent"
+                   FontSize="16" 
+                   Padding="10,0,10,0"/>
+
+                <Button x:Name="nextBtn" 
+                    Clicked="nextBtn_Clicked"
+                    CornerRadius="10"
+                   Text="Suivant"
+                   FontSize="16" 
+                   Padding="20,0,20,0"/>
+            </StackLayout>
+
+            <Label x:Name="title"
+               Text="Movie title" 
+               FontSize="Title" 
+               FontAttributes="Bold"
+               Padding="30,10,30,10"/>
+
+            <Label x:Name="overview" 
+               Text="Movie overview"
+               FontSize="16" 
+               Padding="30,0,30,0"/>
+
+            <Label x:Name="date" 
+               Text="DD/MM/YYYY"
+               FontSize="16" 
+               Padding="30,0,30,0"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

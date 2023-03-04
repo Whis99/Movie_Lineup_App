@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovieApp.FilmDetail">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical">
+
+                <Frame BackgroundColor="#880808" 
+               Padding="10" 
+               CornerRadius="0">
+                    <Label Text="Flixster" 
+                           HorizontalTextAlignment="Center" 
+                           TextColor="White" 
+                           FontSize="27" 
+                           FontAttributes="Bold"/>
+                </Frame>
+                <Image
+                    x:Name="internetIcon2"
+                    HorizontalOptions="Start"
+                    HeightRequest="35"/>
+                
+                <WebView x:Name="videoPlay"
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="FillAndExpand"
+                 HeightRequest="250"
+                 Source="">
+                </WebView>
+
+                <Label x:Name="title"
+               Text="Movie title" 
+               FontSize="Title" 
+               FontAttributes="Bold"
+               Padding="30,10,30,10"/>
+
+                <Label x:Name="overview" 
+               Text="Movie overview"
+               FontSize="16"
+               Padding="30,0,30,0"/>
+
+                <Label x:Name="language"
+               Text="Language" 
+               FontSize="14" 
+               FontAttributes="Bold"
+               Padding="30,10,30,10"/>
+
+                <Label x:Name="voteAv"
+               Text="Moyenne" 
+               FontSize="14" 
+               FontAttributes="Bold"
+               Padding="30,10,30,10"/>
+
+                <Label x:Name="vote"
+               Text="Vote" 
+               FontSize="14" 
+               FontAttributes="Bold"
+               Padding="30,10,30,10"/>
+
+                <Label x:Name="date" 
+               Text="DD/MM/YYYY"
+               FontSize="14" 
+                FontAttributes="Bold"
+               Padding="30,0,30,0"/>
+
+
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

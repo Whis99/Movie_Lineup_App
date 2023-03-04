@@ -1,0 +1,17 @@
+C:\Users\Gus\source\repos\MovieApp\MovieApp\bin\Debug\netstandard2.0\MovieApp.deps.json
+C:\Users\Gus\source\repos\MovieApp\MovieApp\bin\Debug\netstandard2.0\MovieApp.dll
+C:\Users\Gus\source\repos\MovieApp\MovieApp\bin\Debug\netstandard2.0\MovieApp.pdb
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.csproj.AssemblyReference.cache
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.AssemblyInfoInputs.cache
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.AssemblyInfo.cs
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.csproj.CoreCompileInputs.cache
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.dll
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\refint\MovieApp.dll
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.pdb
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\ref\MovieApp.dll
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\FilmDetail.xaml.g.cs
+C:\Users\Gus\source\repos\MovieApp\MovieApp\obj\Debug\netstandard2.0\FilmPage.xaml.g.cs
